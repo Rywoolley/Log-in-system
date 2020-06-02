@@ -1,0 +1,13 @@
+def main_screen():
+    screen = py()
+    screen.geometry = ("300x250")
+    screen.title("notes 1.0")
+    label (text = "notes 1.0", bg = "grey", font = ("calibri", 13)).pack()
+    label (text = "").pack()
+    button (text = "log in").pack()
+    label (text = "").pack()
+    button (text = "register").pack()
+
+    screen.mainloop()
+
+    main_screen()
